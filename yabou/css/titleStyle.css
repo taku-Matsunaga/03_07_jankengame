@@ -1,0 +1,93 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.backSection {
+  position: relative;
+}
+
+.backSection figure img {
+  width: 100%;
+  height: 100vh;
+  object-fit: fill;
+}
+
+.backSection .matsunaga {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  left: 30%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: fade 3s ease-in-out;
+}
+
+.backSection .titleMatsunaga {
+  position: absolute;
+  color: white;
+  font-size: 8vw;
+  font-weight: bold;
+  top: 25vh;
+  right: 10vw;
+  background-color: #ac2020;
+  width: 45vw;
+  height: 20vh;
+  border-radius: 20px;
+  animation: fade 3s ease-in-out;
+}
+
+.backSection .titleMatsunaga .titleYabou {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  font-family: "M PLUS 1p",serif;
+  font-weight: bold;
+  color: #DA8E00;
+  background: -webkit-linear-gradient(-45deg, #F7DE05, #DA8E00, #EDAC06, #F7DE05, #ECB802, #DAAF08, #B67B03, #DA8E00, #EDAC06, #F7DE05, #ECB802, #EDAC06);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.backSection .titleMatsunaga .titleBtn {
+  background-color: #fff;
+  width: 50%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  margin: 100px auto 0;
+  cursor: pointer;
+  border: 5px solid #a41a1a;
+  box-shadow: 0px 0px 30px -11px rgba(0, 0, 0, 0.6);
+}
+
+.backSection .titleMatsunaga .titleBtn a {
+  color: #fd3d3d;
+  font-weight: bold;
+  font-size: 5vw;
+  font-family: "M PLUS 1p",serif;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.blur {
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+  animation: fade 3s ease-in-out;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

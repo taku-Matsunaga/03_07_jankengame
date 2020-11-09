@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+</head>
+
+
+
+<body>
+
+  <div class="testBox">
+    <div class="testBox_a">
+      <div class="testBox_a_b">
+        <div class="testBox_a_b_container" id="first1">
+          <div class="enemyFirst">
+            <img class="bushoFirst" src="/yabou/img/oda.jpg" alt="">
+            <p class="bushoName">織田信長</p>
+          </div>
+          <div class="testBox_a_b_container_list" id="first1_red">
+            <img id="enemy_first1" src="img/red.png" alt="">
+          </div>
+          <div id="first1_blue">
+            <img id="myteam_first1" src="img/blue.png" alt="">
+          </div>
+          <div class="myteamFirst">
+            <img class="bushoFirst" src="/yabou/img/matsunaga.jpg" alt="">
+            <p class="bushoName">松永久秀</p>
+          </div>
+          <ul id="first1_choiceList" class="testBox_a_b_container_choice">
+            <li id="gu_btn">グー</li>
+            <li id="cho_btn">チョキ</li>
+            <li id="par_btn">パー</li>
+          </ul>
+          <div id="insert">
+          </div>
+        </div>
+
+        <div id="com_hand">コンピュータの出した手は？</div>
+        <div id="judgement">結果は？</div>
+
+        <div class="testBox_a_b_container" id="first2">
+          <div class="enemyFirst">
+            <img class="bushoFirst" src="/yabou/img/hashiba.jpg" alt="">
+            <p class="bushoName">豊臣秀吉</p>
+          </div>
+          <div class="testBox_container_list" id="first2_red">
+            <img id="enemy_first2" src="img/red.png" alt="">
+          </div>
+          <div id="first2_blue">
+            <img id="myteam_first2" src="img/blue.png" alt="">
+          </div>
+          <div class="myteamFirst">
+            <img class="bushoFirst" src="/yabou/img/honda.jpg" alt="">
+            <p class="bushoName">本多正信</p>
+          </div>
+          <ul id="first2_choiceList" class="display-none testBox_a_b_container_choice">
+            <li id="gu_btn2">グー</li>
+            <li id="cho_btn2">チョキ</li>
+            <li id="par_btn2">パー</li>
+          </ul>
+          <div id="insert2">
+          </div>
+        </div>
+
+        <div id="com_hand2">コンピュータの出した手は？</div>
+        <div id="judgement2">結果は？</div>
+
+        <div class="testBox_a_b_container" id="first3">
+          <div class="enemyFirst">
+            <img class="bushoFirst" src="/yabou/img/tokugawa.jpg" alt="">
+            <p class="bushoName">徳川家康</p>
+          </div>
+          <div class="testBox_container_list" id="first3_red">
+            <img id="enemy_first3" src="img/red.png" alt="">
+          </div>
+          <div id="first3_blue">
+            <img id="myteam_first3" src="img/blue.png" alt="">
+          </div>
+          <div class="myteamFirst">
+            <img class="bushoFirst" src="/yabou/img/miyoshi.jpg" alt="">
+            <p class="bushoName">三好長慶</p>
+          </div>
+          <ul id="first3_choiceList" class="display-none testBox_a_b_container_choice">
+            <li id="gu_btn3">グー</li>
+            <li id="cho_btn3">チョキ</li>
+            <li id="par_btn3">パー</li>
+          </ul>
+          <div id="insert3">
+          </div>
+        </div>
+
+        <div id="com_hand3">コンピュータの出した手は？</div>
+        <div id="judgement3">結果は？</div>
+      </div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+  <!-- <script src="js/jquery.js"></script> -->
+  <audio preload="auto" src="/yabou/audio/battle.mp3" autoplay loop></audio>
+  <audio id="sound-file1" preload="auto">
+    <source src="/yabou/audio/sword-clash1.mp3" type="audio/mp3">
+  </audio>
+  <audio id="sound-file2" preload="auto">
+    <source src="/yabou/audio/sword-slash1.mp3" type="audio/mp3">
+  </audio>
+  <audio id="sound-file3" preload="auto">
+    <source src="/yabou/audio/sword-slash2.mp3" type="audio/mp3">
+  </audio>
+</body>
+
+</html>

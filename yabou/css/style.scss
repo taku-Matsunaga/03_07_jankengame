@@ -1,0 +1,351 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+
+  .testBox {
+
+
+    &_a {
+      background-image: url(/yabou/img/fujinzu.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      width: 100%;
+      background-color:rgba(255,255,255,0.5);
+      background-blend-mode:lighten;
+
+
+      &_b {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        text-align: center;
+
+        &_container {
+
+          .myteamFirst {
+
+            .bushoFirst {
+              margin-top: 50px;
+              width: 200px;
+              height: 200px;
+              object-fit: cover;
+              object-position: top;
+            }
+
+            .bushoName{
+              font-weight: bold;
+              margin-top: 10px;
+            }
+          }
+          .enemyFirst {
+
+            .bushoFirst {
+              margin-top: 50px;
+              width: 200px;
+              height: 200px;
+              object-fit: cover;
+              object-position: top;
+            }
+
+            .bushoName{
+              font-weight: bold;
+              margin: 10px 0;
+            }
+          }
+
+          &_list {}
+
+          img {
+            width: 30%;
+            margin: 10px 0;
+          }
+
+          &_choice {
+            width: 80%;
+            margin: auto;
+
+            li {
+              border: 1px solid #000000;
+              cursor: pointer;
+              background-color: #fff;
+              margin: 10px 0;
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
+
+#insert{
+  #insertBox{
+    background-color: blue;
+    width: 80%;
+    height: 100px;
+    display: block;
+    margin: 50px auto 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px -11px rgba(95, 95, 95, 0.9);
+
+    
+
+    p{
+      font-size: 3vh;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      color: white;
+    }
+  }
+  #insertBoxLose{
+    background-color: red;
+    width: 80%;
+    height: 100px;
+    display: block;
+    margin: 50px auto 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px -11px rgba(95, 95, 95, 0.9);
+
+    
+
+    p{
+      font-size: 3vh;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      color: rgb(29, 29, 29);
+    }
+  }
+}
+#insert2{
+  #insertBox{
+    background-color: blue;
+    width: 80%;
+    height: 100px;
+    display: block;
+    margin: 50px auto 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px -11px rgba(95, 95, 95, 0.9);
+
+    
+
+    p{
+      font-size: 3vh;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      color: white;
+    }
+  }
+  #insertBoxLose{
+    background-color: red;
+    width: 80%;
+    height: 100px;
+    display: block;
+    margin: 50px auto 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px -11px rgba(95, 95, 95, 0.9);
+
+    
+
+    p{
+      font-size: 3vh;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      color: rgb(29, 29, 29);
+    }
+  }
+  #insertBox2{
+    background-color: blue;
+    width: 80%;
+    height: 100px;
+    display: block;
+    margin: 50px auto 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px -11px rgba(95, 95, 95, 0.9);
+
+    
+
+    p{
+      font-size: 3vh;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      color: white;
+    }
+  }
+  #insertBoxLose2{
+    background-color: red;
+    width: 80%;
+    height: 100px;
+    display: block;
+    margin: 50px auto 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px -11px rgba(95, 95, 95, 0.9);
+
+    
+
+    p{
+      font-size: 3vh;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      color: rgb(29, 29, 29);
+    }
+  }
+}
+#insert3{
+  #insertBox{
+    background-color: blue;
+    width: 80%;
+    height: 100px;
+    display: block;
+    margin: 50px auto 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px -11px rgba(95, 95, 95, 0.9);
+
+    p{
+      font-size: 3vh;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      color: white;
+    }
+  }
+  #insertBoxLose{
+    background-color: red;
+    width: 80%;
+    height: 100px;
+    display: block;
+    margin: 50px auto 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px -11px rgba(95, 95, 95, 0.9);
+
+    p{
+      font-size: 3vh;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      color: rgb(29, 29, 29);
+    }
+  }
+  #insertBox3{
+    background-color: blue;
+    width: 80%;
+    height: 100px;
+    display: block;
+    margin: 50px auto 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px -11px rgba(95, 95, 95, 0.9);
+
+    p{
+      font-size: 3vh;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      color: white;
+    }
+  }
+  #insertBoxLose3{
+    background-color: red;
+    width: 80%;
+    height: 100px;
+    display: block;
+    margin: 50px auto 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px -11px rgba(95, 95, 95, 0.9);
+
+    p{
+      font-size: 3vh;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      color: rgb(29, 29, 29);
+    }
+  }
+}
+
+#com_hand{
+  display: block;
+  align-items: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-weight: bold;
+  font-size: 2vh;
+}
+
+#judgement{
+  display: block;
+  align-items: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-weight: bold;
+  font-size: 2vh;
+}
+
+#com_hand2{
+  display: block;
+  align-items: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-weight: bold;
+  font-size: 2vh;
+}
+
+#judgement2{
+  display: block;
+  align-items: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-weight: bold;
+  font-size: 2vh;
+}
+
+#com_hand3{
+  display: block;
+  align-items: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-weight: bold;
+  font-size: 2vh;
+}
+
+#judgement3{
+  display: block;
+  align-items: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-weight: bold;
+  font-size: 2vh;
+}
+
+.display-none {
+  display: none;
+}
