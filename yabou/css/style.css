@@ -23,8 +23,8 @@ body .testBox_a_b {
 
 body .testBox_a_b_container .myteamFirst .bushoFirst {
   margin-top: 50px;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   object-position: top;
 }
@@ -36,8 +36,8 @@ body .testBox_a_b_container .myteamFirst .bushoName {
 
 body .testBox_a_b_container .enemyFirst .bushoFirst {
   margin-top: 50px;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   object-position: top;
 }
