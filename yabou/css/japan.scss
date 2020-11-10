@@ -37,12 +37,13 @@ img {
         color: white;
         border-radius: 20px;
 
-        p {
+        a {
           height: 100%;
           align-items: center;
           display: flex;
           justify-content: center;
           font-size: 3vh;
+          cursor: pointer;
         }
       }
     }

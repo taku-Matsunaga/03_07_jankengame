@@ -18,7 +18,7 @@ setTimeout(addImg, 7000);
 
 let addTitle = function(){
   document.getElementById('matsunagaTitle').classList.add('titleMatsunaga');
-  document.getElementById('matsunagaTitle').insertAdjacentHTML('afterbegin', "<div class='titleYabou'>松永の野望</div><div class='titleBtn'><a href='/yabou/index.html'>Play</a></div>");
+  document.getElementById('matsunagaTitle').insertAdjacentHTML('afterbegin', "<div class='titleYabou'>松永の野望</div><div class='titleBtn'><a href='/yabou/japan.html'>Play</a></div>");
 }
 
 setTimeout(addTitle, 7000)

@@ -114,6 +114,11 @@
     battlePar();
     first1True();
   }
+  document.getElementById('test_btn').onclick = function () {
+    win();
+    insertWin();
+    dnfirst1();
+  }
 
 
   // first2
@@ -228,6 +233,11 @@
     sound2();
     battlePar2();
     first2True();
+  }
+  document.getElementById('test_btn2').onclick = function () {
+    win2();
+    insertWin2();
+    dnfirst2();
   }
 
 
@@ -349,6 +359,16 @@
     sound3();
     battlePar3();
     first3True();
+    if (document.getElementById('judgement3').textContent !== '引き分け') {
+      setTimeout(secondStage,3000);
+
+    }
+  }
+
+  document.getElementById('test_btn3').onclick = function () {
+    win3();
+    insertWin3();
+    dnfirst3();
     if (document.getElementById('judgement3').textContent !== '引き分け') {
       setTimeout(secondStage,3000);
 

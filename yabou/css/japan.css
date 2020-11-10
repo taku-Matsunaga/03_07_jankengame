@@ -40,12 +40,13 @@ img {
   border-radius: 20px;
 }
 
-.back_container_wrapper_box p {
+.back_container_wrapper_box a {
   height: 100%;
   align-items: center;
   display: flex;
   justify-content: center;
   font-size: 3vh;
+  cursor: pointer;
 }
 
 #odawara {
