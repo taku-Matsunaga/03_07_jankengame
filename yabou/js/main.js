@@ -115,8 +115,15 @@
     first1True();
   }
   document.getElementById('test_btn').onclick = function () {
+    document.getElementById('judgement').innerHTML = '勝ち';
     win();
     insertWin();
+    dnfirst1();
+  }
+  document.getElementById('test_btn_lose').onclick = function () {
+    document.getElementById('judgement').innerHTML = '負け';
+    lose();
+    insertLose();
     dnfirst1();
   }
 
@@ -235,8 +242,15 @@
     first2True();
   }
   document.getElementById('test_btn2').onclick = function () {
+    document.getElementById('judgement2').innerHTML = '勝ち';
     win2();
     insertWin2();
+    dnfirst2();
+  }
+  document.getElementById('test_btn_lose2').onclick = function () {
+    document.getElementById('judgement2').innerHTML = '負け';
+    lose2();
+    insertLose2();
     dnfirst2();
   }
 
@@ -366,12 +380,21 @@
   }
 
   document.getElementById('test_btn3').onclick = function () {
+    document.getElementById('judgement3').innerHTML = '勝ち';
     win3();
     insertWin3();
     dnfirst3();
     if (document.getElementById('judgement3').textContent !== '引き分け') {
       setTimeout(secondStage,3000);
-
+    }
+  }
+  document.getElementById('test_btn_lose3').onclick = function () {
+    document.getElementById('judgement3').innerHTML = '負け';
+    lose3();
+    insertLose3();
+    dnfirst3();
+    if (document.getElementById('judgement3').textContent !== '引き分け') {
+      setTimeout(secondStage,3000);
     }
   }
 
@@ -392,7 +415,7 @@
       document.getElementById('com_hand3').innerHTML = 'コンピュータの出した手は？';
       document.getElementById('judgement3').innerHTML = '結果は？';
     }
-
+    console.log(resultTotal);
     // 全滅で敗北
     if (resultTotal > 0) {
       if (resultTotal !== 3) {
